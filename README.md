@@ -12,3 +12,6 @@ In the hospital there are number of doctors, a few of which hold the position of
 
 At present the hospital has a manual record system but this needs rationalization. It is hoped that the new computerized system will remove data redundancy that at the same time service the information needs of the various user groups in the hospital.
 
+## Intallations
+Install Zendcore
+Install Oracle 
