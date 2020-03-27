@@ -1,0 +1,12 @@
+select a.spec_code,a.name,a.ward_id,c.nurse_id,b.sis_id
+					from ward a,nurseshift b,nurseprehistory c
+					where a.ward_id=c.ward_id
+					and a.ward_id=b.incharge_ward
+					and a.ward_id='$ward_id'"
+
+
+select a.spec_code,a.name,a.ward_id,c.nurse_id,b.sis_id
+					from ward a,nurseshift b,nurseprehistory c
+					where a.ward_id=c.ward_id
+					and a.ward_id=b.incharge_ward
+					and a.name='$ward_name'"
